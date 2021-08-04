@@ -7,7 +7,9 @@ import android.os.Parcelable;
 public class Zadaci implements Parcelable {//se nujdae ot construktor koito priema parcb obekta za da prochita danniteot parcela
     String zadNum, zadUsl, zadOtg;
 
+    public Zadaci(String zadNum, String zadUsl, String zadOtg) {
         this.zadNum = zadNum;
+        this.zadUsl = zadUsl;
         this.zadOtg = zadOtg;
     }
 
