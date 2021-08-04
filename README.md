@@ -45,7 +45,7 @@ public class Zadaci implements Parcelable {//se nujdae ot construktor koito prie
 
     public String getZadNum() {
         return zadNum;
-    } // da se izvlichat obekti
+    } // da se izvlichat obekti!
 
     public String getZadUsl() {
         return zadUsl;
