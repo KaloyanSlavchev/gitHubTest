@@ -19,7 +19,7 @@ public class Zadaci implements Parcelable {//se nujdae ot construktor koito prie
         zadOtg = in.readString();
     }
 
-    public static final Creator<Zadaci> CREATOR = new Creator<Zadaci>() {// suzdavani obekti
+    public static final Creator<Zadaci> CREATOR = new Creator<Zadaci>() {// suzdavani obekti!!!
         @Override
         public Zadaci createFromParcel(Parcel in) {
             return new Zadaci(in);
