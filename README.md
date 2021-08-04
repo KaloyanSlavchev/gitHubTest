@@ -4,7 +4,7 @@ package com.example.popravkaopit1.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class Zadaci implements Parcelable {//se nujdae ot construktor koito priema parcb obekta za da prochita danniteot parcela
+public class Zadaci implements Parcelable {//se nujdae ot construktor koito priema parcb obekta za da prochita danniteot parcela!
     String zadNum, zadUsl, zadOtg;
 
     public Zadaci(String zadNum, String zadUsl, String zadOtg) {
